@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesFactoryJam 6_22-24_18"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesFactoryJam 6_22-24_18", "Assembly-CSharp-Editor-firstpass.csproj", "{BEC6B820-6B7E-7556-E61E-43E2A79501B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesFactoryJam 6_22-24_18", "Assembly-CSharp-Editor.csproj", "{0BC77772-1154-7BA3-297E-7215DC46E73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{BEC6B820-6B7E-7556-E61E-43E2A79501B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC6B820-6B7E-7556-E61E-43E2A79501B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC6B820-6B7E-7556-E61E-43E2A79501B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC77772-1154-7BA3-297E-7215DC46E73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC77772-1154-7BA3-297E-7215DC46E73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC77772-1154-7BA3-297E-7215DC46E73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC77772-1154-7BA3-297E-7215DC46E73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
