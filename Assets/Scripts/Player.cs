@@ -6,7 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class Player : MonoBehaviour {
 
 	// Config
-	[SerializeField] float runSpeed = 5f;
+	[SerializeField] float walkSpeed = 5f;
 	[SerializeField] float jumpSpeed = 5f;
 	[SerializeField] float climbSpeed = 5f;
 
@@ -33,21 +33,21 @@ public class Player : MonoBehaviour {
 	void Update () {
 		if (!isAlive) { return; }
 
-		Run ();
+		Walk ();
 		ClimbLadder ();
 		Jump ();
 		FlipSprite ();
 		Die ();
 	}
 
-	private void Run ()
+	private void Walk ()
 	{
 		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
-		Vector2 playerVelocity = new Vector2 (h * runSpeed, myRigidbody.velocity.y);
+		Vector2 playerVelocity = new Vector2 (h * walkSpeed, myRigidbody.velocity.y);
 		myRigidbody.velocity = playerVelocity;
 
 		bool playerHasHorizontalSpeed = Mathf.Abs (myRigidbody.velocity.x) > Mathf.Epsilon;
-		//myAnimator.SetBool ("isRunning", playerHasHorizontalSpeed);
+		myAnimator.SetBool ("isWalking", playerHasHorizontalSpeed);
 	}
 
 	private void ClimbLadder() {

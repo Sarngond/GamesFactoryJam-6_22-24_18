@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: d38d5ba14f8bc3b419668ca9b076be3c
-timeCreated: 1529769591
+guid: a5b2ffdbacc606941bcd3ba8f240c9fc
+timeCreated: 1529772899
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Duffle0 (1)_0
-    21300002: Duffle0 (1)_1
-    21300004: Duffle0 (1)_2
-    21300006: Duffle0 (1)_3
-    21300008: Duffle0 (1)_4
-    21300010: Duffle0 (1)_5
-    21300012: Duffle0 (1)_6
-    21300014: Duffle0 (1)_7
+    21300000: DuffleIdle_0
+    21300002: DuffleIdle_1
+    21300004: DuffleIdle_2
+    21300006: DuffleIdle_3
+    21300008: DuffleIdle_4
+    21300010: DuffleIdle_5
+    21300012: DuffleIdle_6
+    21300014: DuffleIdle_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Duffle0 (1)_0
+      name: DuffleIdle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -102,7 +102,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_1
+      name: DuffleIdle_1
       rect:
         serializedVersion: 2
         x: 768
@@ -116,7 +116,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_2
+      name: DuffleIdle_2
       rect:
         serializedVersion: 2
         x: 1536
@@ -130,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_3
+      name: DuffleIdle_3
       rect:
         serializedVersion: 2
         x: 2304
@@ -144,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_4
+      name: DuffleIdle_4
       rect:
         serializedVersion: 2
         x: 3072
@@ -158,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_5
+      name: DuffleIdle_5
       rect:
         serializedVersion: 2
         x: 3840
@@ -172,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_6
+      name: DuffleIdle_6
       rect:
         serializedVersion: 2
         x: 4608
@@ -186,7 +186,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Duffle0 (1)_7
+      name: DuffleIdle_7
       rect:
         serializedVersion: 2
         x: 5376
