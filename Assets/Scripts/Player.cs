@@ -73,6 +73,7 @@ public class Player : MonoBehaviour {
 		if (CrossPlatformInputManager.GetButtonDown ("Jump") && canJump) {
 			Vector2 jumpVelocityToAdd = new Vector2 (0f, jumpSpeed);
 			myRigidbody.velocity += jumpVelocityToAdd;
+			myAnimator.SetTrigger("Jump");
 		}
 	}
 
