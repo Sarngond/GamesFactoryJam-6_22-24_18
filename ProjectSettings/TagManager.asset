@@ -18,7 +18,7 @@ TagManager:
   - Player
   - Climbing
   - Props
-  - 
+  - Dreamer
   - 
   - 
   - 
@@ -53,6 +53,12 @@ TagManager:
   - name: Climbing
     uniqueID: 2902198221
     locked: 0
+  - name: NCPs
+    uniqueID: 185056287
+    locked: 0
   - name: Player
     uniqueID: 3409645755
+    locked: 0
+  - name: Interaction Text
+    uniqueID: 2401674327
     locked: 0
