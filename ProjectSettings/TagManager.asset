@@ -50,6 +50,15 @@ TagManager:
   - name: Foreground
     uniqueID: 393171739
     locked: 0
+  - name: Doors and Windows
+    uniqueID: 3589243787
+    locked: 0
+  - name: Chairs
+    uniqueID: 3023441365
+    locked: 0
+  - name: Tables
+    uniqueID: 2999428377
+    locked: 0
   - name: Climbing
     uniqueID: 2902198221
     locked: 0
